@@ -1,0 +1,62 @@
+﻿.mcdd-maincontainer, .mcdd-maincontainer *, .mcdd-dropdown, .mcdd-dropdown * {
+    box-sizing: border-box !important;
+    -webkit-box-sizing: border-box !important;
+}
+
+.mcdd-arrow {
+    margin: 0px !important;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    width: 20px;
+    cursor: pointer;
+    background-color: white;
+}
+
+    .mcdd-arrow b {
+        border-color: #888 transparent transparent;
+        border-style: solid;
+        border-width: 5px 4px 0;
+        height: 0;
+        left: 50%;
+        top: 50%;
+        margin-left: -4px;
+        margin-top: -2px;
+        position: absolute;
+        width: 0;
+        font-weight: 700;
+    }
+
+.mcdd-inputcontainer {
+    position: relative;
+}
+
+    .mcdd-inputcontainer input {
+        margin: 0px !important;
+    }
+
+.mcdd-dropdown {
+    background-color: white;
+    /*margin: 10px;*/
+    border: 1px solid #aaa;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15);
+}
+
+.mcdd-nodatafound {
+    background-color: white;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.mcdd-tree-wrapper {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
